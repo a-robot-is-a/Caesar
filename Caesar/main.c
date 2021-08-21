@@ -8,7 +8,7 @@ version: 2020-08-03
 #include <stdio.h>
 #include "caesar.h"
 
-#define MAX 10
+#define MAX 11
 
 int main(void) {
 
@@ -18,7 +18,7 @@ int main(void) {
 
 	char * name;
 
-	printf("\n  Namen eingeben (MAX %i): ", MAX);
+	printf("\n  Namen eingeben (MAX %i): ", MAX - 1);
 	
 	fgets(name_in, sizeof(name_in), stdin);
 
