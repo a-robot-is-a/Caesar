@@ -1,4 +1,5 @@
 #include "caesar.h"
+#include <locale.h>
 
 int i = 0;
 int c = 0;
